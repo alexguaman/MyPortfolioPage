@@ -1,0 +1,95 @@
+.servicios_title {
+  padding: $separacion / 2;
+}
+
+.servicios-contenedor {
+
+  @include grid(1, $separacion/2); 
+
+  @include tablet {
+    @include grid(2, $separacion/2);    
+  }
+
+
+  //gap: 2rem;
+  .overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+  }
+
+  .overlay-purple {
+    background: rgba(158, 55, 242, 0.8);
+  }
+
+  .overlay-yellow {
+    background: rgba(212, 172, 13, 0.8);
+  }
+
+  .overlay-green {
+    background: rgba(137, 172, 118, 0.8);
+  }
+
+  .overlay-blue {
+    background: rgba(059, 131, 189, 0.8);
+  }
+}
+
+.servicio {
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+
+  // @include tablet {
+  //   min-height: 25rem;
+  // }
+}
+
+.servicio-java {
+  background-image: url(../img/javadeveloper1.jpg);
+}
+
+.servicio-architecture {
+  background-image: url(../img/architecture1.jpg);
+}
+
+.servicio-webdev {
+  background-image: url(../img/webdeveloper1.jpg);
+}
+
+.servicio-teamlead {
+  background-image: url(../img/teamlead1.jpg);
+}
+
+.servicio-toolimp {
+  background-image: url(../img/toolsimplementation1.png);
+}
+
+.servicio-docker {
+  background-image: url(../img/docker1.jpg);
+}
+
+.contenido-servicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 4rem;
+
+  .servicio-nombre {
+    text-align: center;
+    font-weight: $bold;
+    font-size: 3rem;
+    color: $blanco;
+  }
+
+  .servicio-desc {
+    color: $blanco;
+    text-align: justify;
+  }
+
+  i {
+    color: $blanco;
+  }
+}

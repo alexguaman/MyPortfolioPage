@@ -1,0 +1,52 @@
+.header {
+  background-color: $grisSombra;
+  padding: 1.5rem;
+}
+
+.barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    width: 5rem;
+}
+
+
+.navegacion {
+
+    @include tablet {
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: $blanco;
+        font-size: 1.8rem;
+        display: block;
+        text-align: center;
+
+        @include tablet {
+            margin-right: 2rem;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        &:hover {
+            color: $amarillo;
+        }
+    }
+    
+}
+
+// .btn-toogle-nav {
+
+// }

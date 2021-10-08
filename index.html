@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preload" href="build/css/app.css" as="style" />
+    <link rel="stylesheet" href="build/css/app.css" />
+
+    <title>Portafolio</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <img class="logo" src="build/img/logo.jpg" alt="logo" />
+          <nav class="navegacion">
+            <!-- <div class="btn-toogle-nav"></div> -->
+            <!-- <div> -->
+              <a href="#inicio">Home</a>
+              <a href="#about">About me</a>
+              <a href="#servicios">Services</a>
+              <a href="#contact">Contact</a>
+            <!-- </div> -->
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Seccion Inicio -->
+
+    <main class="contenedor seccion inicio" id="inicio">
+      <div class="presentacion">
+        <h2 class="presentacion_title">I'm Alex Guaman</h2>
+        <p class="presentacion_desc">
+          Freelancer Back End Developer & Solutions Architect
+        </p>
+        <div>
+          <a href="#contact" class="boton-verde"> Contact me </a>
+        </div>
+      </div>
+      <div>
+        <img class="inicio_img" src="./build/img/me1.png" alt="Me" />
+      </div>
+    </main>
+
+    <!-- Seccion About me -->
+
+    <section class="contenedor seccion" id="about">
+      <div class="about_contenido">
+        <div class="about_title">
+          <h2>About me</h2>
+        </div>
+        <div>
+          <p class="about_text">
+            Orientado al trabajo por objetivos con capacidad de análisis y
+            organización, con más de 11 años de experiencia en TI. 
+          </p>
+          <p class="about_text">Habilidad para enfrentar situaciones de desafío y superación. Habilidad para trabajar en equipo.</p>
+          <div class="about_botones">
+            <a href="#" class="boton-verde"> Ver mas </a>
+            <a
+              href="build/docs/Hoja_Vida_AlexGuaman.pdf"
+              download="Curriculum"
+              class="boton-verde"
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Servicios -->
+
+    <section class="contenedor seccion" id="servicios">
+      <div class="servicios_title">
+        <h2>Services</h2>
+      </div>
+      <div class="servicios-contenedor">
+        <div class="servicio servicio-java">
+          <div class="overlay overlay-purple">
+            <div class="contenido-servicio">
+              <i class="fab fa-java fa-5x"></i>
+              <p class="servicio-nombre">Java Developer</p>
+              <p class="servicio-desc">Desarrollo con JEE, JPA, Spring Boot</p>
+            </div>
+          </div>
+        </div>
+        <div class="servicio servicio-architecture">
+          <div class="overlay overlay-yellow">
+            <div class="contenido-servicio">
+              <i class="fas fa-sitemap fa-5x"></i>
+              <p class="servicio-nombre">Architecture</p>
+              <p class="servicio-desc">
+                Arquitecto de soluciones, lineamientos, estándares y diseno de
+                servicios, interoperabilidad. Patrones de diseno
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="servicio servicio-webdev">
+          <div class="overlay overlay-blue">
+            <div class="contenido-servicio">
+              <i class="fas fa-code fa-5x"></i>
+              <p class="servicio-nombre">Web Developer</p>
+              <p class="servicio-desc">Desarrollo en HTML5, CSS y Javascript</p>
+            </div>
+          </div>
+        </div>
+        <div class="servicio servicio-teamlead">
+          <div class="overlay overlay-green">
+            <div class="contenido-servicio">
+              <i class="fas fa-users fa-5x"></i>
+              <p class="servicio-nombre">Team Lead</p>
+              <p class="servicio-desc">
+                Analisis y gestion de proyectos informáticos
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="servicio servicio-toolimp">
+          <div class="overlay overlay-purple">
+            <div class="contenido-servicio">
+              <i class="fas fa-users fa-5x"></i>
+              <p class="servicio-nombre">Tools Implementation</p>
+              <p class="servicio-desc">
+                Wso2 Api Gateway, Wso2 Identity Server, Elastic Search, Jenkins,
+                RabbitMQ
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="servicio servicio-docker">
+          <div class="overlay overlay-blue">
+            <div class="contenido-servicio">
+              <i class="fab fa-docker fa-5x"></i>
+              <p class="servicio-nombre">Docker</p>
+              <p class="servicio-desc">Administración de contenedores Docker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seccion Contacto -->
+
+    <section class="contenedor seccion" id="contact">
+      <div class="contacto_info">
+        <h2 class="con_info_title">Contact Me</h2>
+        <ul>
+          <li>
+            <i class="fa fa-map-marker"></i>
+            <span class="con_info_text">Guayaquil, Guayas, Ecuador</span>
+          </li>
+          <li>
+            <i class="fa fa-envelope"></i>
+            <span class="con_info_text">alex.guaman86@gmail.com</span>
+          </li>
+          <li>
+            <i class="fa fa-phone"></i>
+            <span class="con_info_text">+593 988743732 </span>
+          </li>
+          <li>
+            <a href="https://www.alexguaman.com">
+              <i class="fa fa-globe"></i>
+              <span class="con_info_text">www.alexguaman.com</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/alex-guaman-g"
+              ><i class="fa fa-linkedin"></i>
+              <span class="con_info_text">linkedin.com/in/alex-guaman-g</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <p class="copyright">Copyright &copy; 2021</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/ea4a8899e2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

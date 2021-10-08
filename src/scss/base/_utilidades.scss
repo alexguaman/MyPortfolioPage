@@ -1,0 +1,41 @@
+.bg-amarillo {
+    background-color: $amarillo;
+}
+
+.bg-verde {
+    background-color: $verde;
+}
+
+.bg-grisOscuro {
+    background-color: $grisOscuro;
+}
+
+.bg-celeste {
+    background-color: $celeste;
+}
+
+.bg-magenta {
+    background-color: $magenta;
+}
+
+.bg-amarilloBajo {
+    background-color: $amarilloBajo;
+}
+
+.bg-verdeBajo {
+    background-color: $verdeBajo;
+}
+
+.bg-morado {
+    background-color: $morado;
+}
+
+.seccion {
+    margin-top: $separacion / 2;
+    margin-bottom: $separacion / 2;
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}

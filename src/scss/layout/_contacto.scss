@@ -1,0 +1,18 @@
+.contacto_info {
+  padding: $separacion;
+
+  li {
+    list-style: none;
+    padding: $separacion / 2;
+    font-weight: $bold;
+  }
+
+  a {
+    color: $negro;
+  }
+
+  .con_info_text {
+    padding: $separacion / 4;
+    color: $grisSombra;
+  }
+}

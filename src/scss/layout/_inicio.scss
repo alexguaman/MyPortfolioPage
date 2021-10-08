@@ -1,0 +1,30 @@
+.inicio {
+  padding: $separacion 0;
+
+  @include tablet {
+    @include grid(2, $separacion);
+  }
+}
+
+.presentacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .presentacion_title {
+    color: $colorTitulo;
+  }
+
+  .presentacion_desc {
+    color: $colorTituloDesc;
+    font-size: 2.8rem;
+  }
+}
+
+.inicio_img {
+  max-width: 80%;
+
+  @include tablet {
+    max-width: 90%;
+  }
+}

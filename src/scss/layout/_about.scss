@@ -1,0 +1,21 @@
+.about_contenido {
+
+    padding: $separacion/2;
+
+    @include tablet {
+        @include grid(2, $separacion);
+    }
+
+}
+
+.about_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text {
+    color: $colorTituloDesc;
+    padding-top: 2rem;
+}
+
