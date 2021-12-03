@@ -7,6 +7,7 @@
 
     <link rel="preload" href="build/css/app.css" as="style" />
     <link rel="stylesheet" href="build/css/app.css" />
+    <link rel="shortcut icon" href="favicon.ico">
 
     <title>Portafolio</title>
   </head>
@@ -16,15 +17,17 @@
       <div class="contenedor">
         <div class="barra">
           <img class="logo" src="build/img/logo.jpg" alt="logo" />
-          <nav class="navegacion">
-            <!-- <div class="btn-toogle-nav"></div> -->
-            <!-- <div> -->
-            <a href="#inicio">Home</a>
-            <a href="#about">About me</a>
-            <a href="#servicios">Services</a>
-            <a href="#contact">Contact</a>
-            <!-- </div> -->
-          </nav>
+          <a href="javascript:void(0);" class="btn_menu" onclick="functionMenu()">
+            <i class="fa fa-bars fa-3x"></i>
+          </a>
+          <nav class="navegacion">            
+            <div id="links" class="links">
+              <a href="#inicio">Home</a>
+              <a href="#about">About me</a>
+              <a href="#servicios">Services</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </nav>          
         </div>
       </div>
     </header>
@@ -35,7 +38,7 @@
       <div class="presentacion">
         <h2 class="presentacion_title">I'm Alex Guaman</h2>
         <p class="presentacion_desc">
-          Freelancer Back End Developer & Solutions Architect
+          Freelancer Developer & Solutions Architect
         </p>
         <div>
           <a href="#contact" class="boton-verde"> Contact me </a>
@@ -61,11 +64,11 @@
           </p>
           <p class="about_text">
             Entusiasta por las tecnologías Cloud y la cultura Devops, con
-            habilidades para enfrentar situaciones de desafío, superación y 
+            habilidades para enfrentar situaciones de desafío, superación y
             trabajo en equipo.
           </p>
           <div class="about_botones">
-            <a href="#" class="boton-verde"> Ver más </a>
+            <a href="#" class="boton-verde"> View more </a>
             <a
               href="build/docs/Hoja_Vida_AlexGuaman.pdf"
               download="Curriculum"
@@ -196,5 +199,6 @@
       src="https://kit.fontawesome.com/ea4a8899e2.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="./build/js/bundle.js"></script>
   </body>
 </html>
